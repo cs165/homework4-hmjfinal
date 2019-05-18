@@ -8,7 +8,6 @@ class GifDisplay {
         this.gifTheme = gifTheme;
         this.gifs = [];
         this.api_Key = 'W82VydgBr9jA5n03sh9THGIAxosSN7CX';
-        //this.apiURL = 'http://api.giphy.com/v1/gifs/search?rating=g&limit=25&apikey=' + this.apiKey + '&q=' + encodeURIComponent(this.gifTheme);
         this.apiURL = 'https://api.giphy.com/v1/gifs/search?api_key=' + this.api_Key + '&q=' + encodeURIComponent(this.gifTheme);
         console.log(this.apiURL)
         this.currentIndex = 0;
