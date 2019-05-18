@@ -4,7 +4,7 @@ class GifDisplay {
         this.gifTheme = gifTheme;
         this.gifs = [];
         this.api_Key = 'dc6zaTOxFJmzC';
-        this.apiURL = 'http://api.giphy.com/v1/gifs/search?api_key=' + this.api_Key + '&q=' + encodeURIComponent(this.gifTheme);
+        this.apiURL = 'https://api.giphy.com/v1/gifs/search?api_key=' + this.api_Key + '&q=' + encodeURIComponent(this.gifTheme);
         console.log(this.apiURL)
         this.currentIndex = 0;
         this.currentGif = null;
